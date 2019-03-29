@@ -4,5 +4,5 @@
 [cube test](../ar-test.html "Test 001") This example does not seem to want to access the webcam.
 - Working AR example found on [stemkoski.github.io](https://stemkoski.github.io)<br/>
 [Basic cube example](../hello-cube.html "Basic cube example by stemkoski")
-- QR-code test with qr-code target<br/>
+- QR-code test with [qr-code target](qrTarget.png)<br/>
 [qr test](../qr-cube.html)
