@@ -19,7 +19,7 @@
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
 
 	<div style='position: absolute; top: 10px; width:100%; text-align: center; z-index: 1;'>
-		Updated 01/04/16 16:24
+		Updated 01/04/16 16:27
 	</div>
 
 
@@ -115,12 +115,12 @@ function initialize()
 	
 	new THREE.MTLLoader()
 		.setPath( 'models/' )
-		.load( 'ara-logo.mtl', function ( materials ) {
+		.load( 'logo.mtl', function ( materials ) {
 			materials.preload();
 			new THREE.OBJLoader()
 				.setMaterials( materials )
 				.setPath( 'models/' )
-				.load( 'ara-logo.obj', function ( group ) {
+				.load( 'logo.obj', function ( group ) {
 					mesh0 = group.children[0];
 					mesh0.material.side = THREE.DoubleSide;
 					mesh0.position.y = 0.5;
