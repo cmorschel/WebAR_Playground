@@ -10,6 +10,9 @@
   *This example uses a custom marker based on a [QR code](/ImageSources/qrTarget.png). The idea is to be able to scan the code and use it as a target for AR content. It also works for targets sized 5cm - those that can fit on a business card.*
 
 - [QR-code custom model test](../qr-custom-obj.html) with [qr-code target](/ImageSources/qrTarget.png)
-  *This example is designed to display a company logo above the [qr-code target](/ImageSources/qrTarget.png). Use case: business card AR.*
+  *This example is designed to display a company logo above the [qr-code target](/ImageSources/qrTarget.png). Use case: business card AR. Here I am using Blender's Suzanne.*
+
+- [QR-code logo test](../qr-logo.html) with [qr-code target](/ImageSources/qrTarget.png)
+  *This example is designed to display a company logo above the [qr-code target](/ImageSources/qrTarget.png). Use case: business card AR. Here I am using a 3D logo as an example.*
 
 
