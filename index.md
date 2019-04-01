@@ -14,5 +14,3 @@
 
 - [QR-code logo test](../qr-logo.html) with [qr-code target](/ImageSources/qr-logo.png)
   *This example is designed to display a company logo above the [qr-code target](/ImageSources/qr-logo.png). Use case: business card AR. Here I am using a 3D logo as an example.*
-
-
