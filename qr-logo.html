@@ -38,7 +38,7 @@ animate();
 function initialize()
 {
 	scene = new THREE.Scene();
-	let ambientLight = new THREE.AmbientLight( 0xcccccc, 2.0 );
+	let ambientLight = new THREE.AmbientLight( 0xcccccc, 5.0 );
 	scene.add( ambientLight );
 				
 	camera = new THREE.Camera();
@@ -124,7 +124,7 @@ function initialize()
 					mesh0 = group.children[0];
 					mesh0.material.side = THREE.DoubleSide;
 					mesh0.position.y = 0.5;
-					mesh0.rotation.x = -Math.PI/2;
+					//mesh0.rotation.x = -Math.PI/2;
 					mesh0.scale.set(0.3, 0.3, 0.3);
 					markerRoot1.add(mesh0);
 				}, onProgress, onError );
